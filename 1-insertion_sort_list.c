@@ -16,7 +16,7 @@ listint_t *get(listint_t *list, size_t n)
 }
 /**
  * size - get size of linked list
- * @list: pointer to first node
+ * @f: pointer to first node
  *
  * Return: size
  */
@@ -33,6 +33,7 @@ size_t size(listint_t *f)
 }
 /**
  * swap - swaps two nodes of linked list
+ * @list: linked list
  * @a: index to first
  * @b: index to second
  *
